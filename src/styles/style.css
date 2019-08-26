@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding:20px;
+  font-size: 30px;
+  color: white;
+}
+header img{
+  width: 200px;
+  height: 200px;
+}
+H1.absolute1 {
+  position: absolute;
+  top: 5px;
+  left: 270px;
+}
