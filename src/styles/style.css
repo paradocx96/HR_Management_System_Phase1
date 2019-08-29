@@ -5,6 +5,7 @@
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
 }
 
 /* Style the header */
@@ -12,7 +13,7 @@ header {
   background-color: #666;
   text-align: left;
   padding:20px;
-  font-size: 25px;
+  font-size: 30px;
   color: white;
 }
 header img{
@@ -66,46 +67,28 @@ a.navi2{
   text-decoration: none;
 }
 
-/*footer*/
 
-footer {
+/* DIV CSS for section area*/
+section{
+  float: left;
+  width: 75%;
+  padding:10px;
+  background-color: white;
+  border: 1px solid black;
+}
+aside{
+  float:right;
+  width: 25%;
   padding: 10px;
-  background-color: #333;
-  color: white;
+  background-color: lightblue;
+  border: 1px solid black;
 }
-.p5{
-  font-style: italic;
-  font-size: 10px;
-}
-
-
-/*XXXXXXXXXXXXXXXXXXX*/
-/*div.div1 {
-  width: 500px;
-  height: 700px;
-  background-color: #666;
-  text-align: left;
-  padding:20px;
-  font-size: 15px;
-}
-
-div.div2 {
-  position:static;
-  top: 0;
-  left: 0;
-  width: 500px;
-  height: 700px;
-  background-color: #333;
-  text-align: left;
-  padding:20px;
-  font-size: 15px;
-}*/
-
 .divrow{
   content: none;
   display: table;
   clear: both;
 }
+
 .divcolumn{
   float: left;
   width:350px;
@@ -113,11 +96,31 @@ div.div2 {
   padding:15px;
   background-color: white;
 }
+
+.divcolumn2{
+  content: none;
+  display: table;
+  clear: both;
+}
+.divrow2{
+  width:auto;
+  height: 400px;
+  padding:15px;
+  background-color: white;
+}
+.imageadd{
+  width: 250px;
+  height: 250px;
+}
+
+
 /*@media screen and (max-width:600px) {
   .divcolumn{
     width: 100%;
   }
 }*/
+
+
 .p1{
   font-size: 18px;
   top: inherit;
@@ -134,18 +137,6 @@ div.div2 {
   height: 250px;
 }
 
-/*.bt1{
-  padding: 18px;
-  color:black;
-  background-color:white;
-  border:2px solid #555555;
-  border-radius: 12px;
-  text-align: center;
-  text-decoration:none;
-  font-size: 16px;
-  font-family:sans-serif;
-  width: 180px;
-}*/
 
 .div4{
   width: 25px;
@@ -160,9 +151,9 @@ div.div2 {
 
 /*button*/
 .button {
-  background-color: #4CAF50;
+  background-color: white;
   border: 2px solid black;
-  color: white;
+  color: black;
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
@@ -172,7 +163,40 @@ div.div2 {
   width: 150px;
   height: 50px;
 }
-.section1{
-  padding:20px;
-  background-color: lightgray;
+
+/*footer*/
+
+footer {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+.p5{
+  font-style: italic;
+  font-size: 12px;
+}
+.footerrow{
+  content: none;
+  display: table;
+  clear: both;
+}
+.footercolumn{
+  float: left;
+  width:190px;
+  height: 90px;
+  padding:15px;
+}
+
+.footerbutton{
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  width: 100px;
+  height: 32px;
 }
